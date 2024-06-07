@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How far can ya go?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>How far can ya go?</h1>
+    <div id="welcomeScreen">
+        <canvas id="backgroundCanvas" width="400" height="600"></canvas>
+        <h2 class="text3d">How far can ya go?</h2>
+        <button id="startButton">Click to play</button>
+    </div>
+    <canvas id="gameCanvas" width="400" height="600" style="display: none;"></canvas>
+    <div id="gameOverScreen" style="display: none;">
+        <h2>Game Over</h2>
+        <p id="finalScore"></p>
+        <button id="mainMenuButton">Back to Main Menu</button>
+        <button id="restartButton">Start Over</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
